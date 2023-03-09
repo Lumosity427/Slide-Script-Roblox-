@@ -1,0 +1,9 @@
+local character = game:WaitForChild('HumanoidRootPart')
+local root = character:WaitForChild('Humanoid')
+
+local character.Sit = false
+local part = game.Workspace.SlideFunctionPart
+
+game:functionOnHit(hit)
+character.Sit = true
+end)
